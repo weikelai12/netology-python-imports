@@ -1,0 +1,44 @@
+# --- Виртуальное окружение (venv) ---
+venv/
+env/
+ENV/
+.venv/
+
+# --- Файлы Python ---
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+*.egg-info/
+dist/
+*.egg
+
+# --- Зависимости (если используешь pip freeze) ---
+# requirements.txt обычно коммитят, но если есть локальные тестовые списки:
+# pip-log.txt
+# pip-delete-this-directory.txt
+
+# --- Настройки PyCharm / IntelliJ IDEA ---
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# --- Настройки VS Code (на всякий случай) ---
+.vscode/
+
+# --- Операционная система ---
+.DS_Store
+Thumbs.db
+
+# --- Логи и временные файлы ---
+*.log
+tmp/
+temp/
+
+# --- База данных SQLite (если появится) ---
+*.sqlite3
+*.db
